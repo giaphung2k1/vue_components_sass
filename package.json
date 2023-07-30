@@ -1,0 +1,37 @@
+{
+    "name": "oncolog-web-client",
+    "version": "0.0.0",
+    "scripts": {
+        "dev": "vite",
+        "compile": "vue-tsc --noEmit",
+        "build": "vue-tsc --noEmit && vite build",
+        "preview": "vite preview",
+        "lint": "eslint . --fix --ignore-path .gitignore",
+        "clean": "rimraf -g ./dist tsconfig.tsbuildinfo",
+        "clean-all": "rimraf -g ./node_modules ./dist .tsconfig.tsbuildinfo"
+    },
+    "dependencies": {
+        "@mdi/font": "7.0.96",
+        "roboto-fontface": "^0.10.0",
+        "uuid": "^9.0.0",
+        "vue": "^3.2.47",
+        "vue-router": "^4.1.6",
+        "vuetify": "^3.1.13",
+        "webfontloader": "^1.6.28"
+    },
+    "devDependencies": {
+        "@fortawesome/fontawesome-free": "^6.4.0",
+        "@types/node": "^18.15.11",
+        "@types/uuid": "^9.0.1",
+        "@types/webfontloader": "^1.6.35",
+        "@vitejs/plugin-vue": "^3.2.0",
+        "@vue/eslint-config-typescript": "^11.0.2",
+        "eslint": "^8.37.0",
+        "eslint-plugin-vue": "^9.10.0",
+        "sass": "^1.63.6",
+        "typescript": "^4.9.5",
+        "vite": "^3.2.5",
+        "vite-plugin-vuetify": "^1.0.2",
+        "vue-tsc": "^1.2.0"
+    }
+}
