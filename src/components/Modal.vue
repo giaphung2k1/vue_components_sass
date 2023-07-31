@@ -127,5 +127,5 @@ const emits = defineEmits(["onSubmit"]);
 
 
 <style scoped lang="css">
-@import "@/assets/styles/lookup.css";
+@import "@/assets/styles/lookup.scss";
 </style>

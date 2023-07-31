@@ -17,7 +17,7 @@ import { registerPlugins } from "@/plugins";
 
 
 // import "@/styles/index.css";
-import "@/assets/styles/lookup.css";
+import "@/assets/styles/lookup.scss";
 
 const app = createApp(App);
 

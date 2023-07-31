@@ -124,7 +124,7 @@ const filteredData = computed(() => {
 </script>
 
 <style scoped lang="css">
-@import "@/assets/styles/lookup.css";
+@import "@/assets/styles/lookup.scss";
 .state-cod-text {
   color: #00695c;
 }

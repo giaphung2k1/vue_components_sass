@@ -39,5 +39,5 @@ import  { classSuffixs } from "@/list/data"
 </script>
 
 <style scoped lang="css">
-@import "@/assets/styles/lookup.css";
+@import "@/assets/styles/lookup.scss";
 </style>

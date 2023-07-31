@@ -83,5 +83,5 @@ watch(lookupValue, (currentValue) => {
 </script>
 
 <style lang="css" scoped>
-@import "@/assets/styles/lookup.css";
+@import "@/assets/styles/lookup.scss";
 </style>
